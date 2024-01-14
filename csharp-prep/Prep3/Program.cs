@@ -23,7 +23,7 @@ class Program
             else {
                 Console.WriteLine("Correct! Great job!");
             }
-
+            // Add a nested loop to count the number of guesses.
 
         }
     }
