@@ -15,8 +15,8 @@ class Program
         Job job2 = new Job();
         job2._jobTitle = "GIS AR Software Developer";
         job2._company = "Esri";
-        job2._startYear = 2017;
-        job2._endYear = 2023;
+        job2._startYear = 2012;
+        job2._endYear = 2018;
 
         Resume myResume = new Resume();
         myResume._name = "Jedadiah Jacobs";
