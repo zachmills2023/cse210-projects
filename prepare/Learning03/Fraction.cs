@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 
+// Hello
 public class Fraction{
 
     private int _top;
