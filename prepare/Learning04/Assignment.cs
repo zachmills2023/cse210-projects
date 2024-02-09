@@ -11,18 +11,6 @@ public class Assignment
         _topic = topic;
     }
 
-    // public string GetTopic(){
-    //     return _topic;
-    // }
-    // public string GetStudentName(){
-    //     return _studentName;
-    // }
-    // public void SetStudentName(string studentName){
-    //     string _studentName = studentName;
-    // }
-    // public void SetTopic(string topic){
-    //     string _topic = topic;
-    // }
 
     // Use this to get the summary of the student. 
     public string GetSummary(){

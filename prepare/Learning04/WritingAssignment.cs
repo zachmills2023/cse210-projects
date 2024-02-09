@@ -8,7 +8,7 @@ public class WritingAssignment : Assignment{
     }
 
     public string GetWritingInformation(){
-        return $"{GetSummary()}" + $"\n{_title} by {_studentName}";
+        return $"{GetSummary()}" + $"\n{_title} by {_studentName}\n";
     }
 
 }
