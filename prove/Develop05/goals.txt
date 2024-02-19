@@ -1,0 +1,4 @@
+6300
+SimpleGoal:Pushup:One good pushup:100:True
+EternalGoal:Scriptures:Read the scriptures once a day.:100
+ChecklistGoal:Temple:Go to the temple three times.:1000:3:3:3000

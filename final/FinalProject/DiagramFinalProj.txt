@@ -1,0 +1,67 @@
+Class: LanguageApp
+    Properties:
+        - List<Flashcard> flashcards
+        - List<Quiz> quizzes
+        - List<User> users
+    Methods:
+        - createFlashcard()
+        - takeQuiz()
+        - trackProgress()
+
+Class: Flashcard
+    Properties:
+        - int flashcardID
+        - string word
+        - string translation
+        - Language language
+
+Class: User
+    Properties:
+        - string name
+        - int userID
+    Methods:
+        - virtual void study() // Method to be overridden in derived classes
+
+Class: Teacher : User
+    Properties:
+        - List<Flashcard> createdFlashcards
+    Methods:
+        - override void study() // Teacher-specific study behavior
+
+Class: Student : User
+    Properties:
+        - List<Flashcard> studiedFlashcards
+    Methods:
+        - override void study() // Student-specific study behavior
+
+Class: Quiz
+    Properties:
+        - int quizID
+        - Language language
+        - List<Question> questions
+        - int timeLimit
+
+Class: Question
+    Properties:
+        - int questionID
+        - Flashcard flashcard
+        - List<Answer> answers
+
+Class: Answer
+    Properties:
+        - int answerID
+        - string text
+        - bool isCorrect
+
+Class: Progress
+    Properties:
+        - int progressID
+        - User user
+        - Language language
+        - string level
+
+Class: Language
+    Properties:
+        - int languageID
+        - string name
+        - List<Flashcard> flashcards
