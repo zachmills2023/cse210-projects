@@ -11,8 +11,8 @@ public class Cycling : Activity
 
     public override string GetSummary()
     {
-        return $"{base.GetSummary()}\nType: Cycling\nSpeed: {_speedMPH} mph\nDistance: {GetDistance():F2}"
-        + "miles\nPace: {GetPace():F2} min per mile\n";
+        return $"{base.GetSummary()}\nType: Cycling\nSpeed: {_speedMPH} mph\nDistance: " + GetDistance()
+        + " miles\nPace: " + GetPace() + "min per mile\n";
     }
 
     public override double GetDistance()

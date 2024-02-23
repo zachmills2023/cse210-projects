@@ -11,8 +11,8 @@ public class Swimming : Activity
 
     public override string GetSummary()
     {
-        return $"{base.GetSummary()}\nType: Swimming\nNumber of Laps: {_lapNum}\nDistance: {GetDistance:F2} miles\nSpeed:" +
-         "{GetSpeed():F2} mph\nPace: {GetPace():F2} min per mile\n";    
+        return $"{base.GetSummary()}\nType: Swimming\nNumber of Laps: {_lapNum}\nDistance: {GetDistance():F2} miles\nSpeed:" +
+         $"{GetSpeed():F2} mph\nPace: {GetPace():F2} min per mile\n";    
     }
 
     public override double GetDistance()

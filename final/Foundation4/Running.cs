@@ -28,6 +28,6 @@ public class Running : Activity
     public override string GetSummary()
     {
         return $"{base.GetSummary()}\nType: Running \nDistance {_distanceMiles} miles," + 
-        "\nSpeed {GetSpeed():F2} mph, \nPace: {GetPace():F2} min per mile\n";
+        $"\nSpeed {GetSpeed():F2} mph, \nPace: {GetPace()} min per mile\n";
     }
 }

@@ -30,11 +30,11 @@ class Program
         foreach (var order in orders)
         {
             Console.WriteLine("Packing Label:");
-            Console.WriteLine("$" + order.GetPackingLabel());
+            Console.WriteLine(order.GetPackingLabel());
             Console.WriteLine();
 
             Console.WriteLine("Shipping Label:");
-            Console.WriteLine("$" + order.GetShippingLabel());
+            Console.WriteLine(order.GetShippingLabel());
             Console.WriteLine();
 
             Console.WriteLine("Total Cost:");
